@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+venv/
+*.wav
+*.mp4
+temp_input.wav
+voicevox_core/
+Avatar/
+L2DZeroVS/

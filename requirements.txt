@@ -1,0 +1,9 @@
+groq
+keyboard
+SpeechRecognition
+sounddevice
+soundfile
+numpy
+PyQt5
+live2d-py
+voicevox-core
