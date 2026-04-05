@@ -43,4 +43,4 @@ python arona.py
 Didistribusikan di bawah lisensi MIT. Lihat file `LICENSE` untuk informasi lebih lanjut.
 
 ## 🤝 Kolaborasi & Pengembangan Lanjut
-Proyek ini masih dalam tahap pengembangan aktif. Jika Anda tertarik untuk berkontribusi, menambahkan fitur baru (seperti *Agentic System* atau RAG), atau mengembangkan proyek ini lebih jauh, **silakan hubungi saya untuk berdiskusi!** Anda bisa membuka *Issues*, *Pull Requests*, atau menghubungi kontak saya secara langsung.
+Proyek ini masih dalam tahap pengembangan aktif. Jika Anda tertarik untuk berkontribusi, menambahkan fitur baru (seperti *Agentic System* atau RAG), atau mengembangkan proyek ini lebih jauh, **silakan hubungi saya sebagai pembuat project ini untuk berdiskusi!** Anda bisa membuka *Issues*, *Pull Requests*, atau menghubungi kontak saya secara langsung.
