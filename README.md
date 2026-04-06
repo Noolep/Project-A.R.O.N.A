@@ -12,16 +12,29 @@ Asisten AI virtual desktop otonom yang ditenagai oleh Groq (Llama 3.3), Voicevox
 
 ## 🛠️ Persyaratan Sistem & Instalasi
 
-Jika Anda melakukan *clone/download* langsung dari *source code* ini, Anda harus menyiapkan aset pihak ketiga (Voicevox & Live2D) secara manual.
+## Ini adalah video pemasangan yang realase
 
+![ss](ss.png)
+Lihat video ini jika kurang faham dalam pemasangan
+
+
+
+
+Jika Anda melakukan *clone/download* langsung dari *source code* ini, Anda harus menyiapkan aset pihak ketiga (Voicevox & Live2D) secara manual.
 ### 1. Install Dependencies
-Pastikan Python 3.10 atau 3.11 sudah terpasang. Buka terminal (Run as Administrator) dan jalankan:
+Buka terminal (As administrator) danPastikan Python 3.10 atau 3.11 sudah terpasang.
+
+Jika tidak ada aku sudah menyiapkan python3.11 di arona_core tinggal ketik
+```
+.\arona_core\Scripts\activate
+```
+lalu ketik:
 ```bash
 pip install -r requirements.txt
 ```
 ### 2. Konfigurasi Groq API Key
  1. Dapatkan API Key secara gratis di [Groq Console.](https://console.groq.com/keys)
- 2. Buka fail `arona.py.`
+ 2. Buka file `arona.py.`
  3. Cari variabel `GROQ_API_KEY` dan tempelkan API Key Anda.
 
 ### 3. Setup Mesin Voicevox Core
@@ -32,7 +45,7 @@ pip install -r requirements.txt
 
 ### 4. Setup Model Avatar (Live2D)
  1. Buat folder bernama `Avatar` di root proyek.
- 2. Masukkan semua komponen Live2D Anda (`.model3.json`, `.moc3`, dan folder tekstur) ke dalamnya. Pastikan nama fail utamanya adalah `L2DZeroVS.model3.json` atau sesuaikan path-nya di dalam `arona.py`.
+ 2. Masukkan semua komponen Live2D Anda (`.model3.json`, `.moc3`, dan folder tekstur) ke dalamnya. Pastikan nama file utamanya adalah `L2DZeroVS.model3.json` atau sesuaikan path-nya di dalam `arona.py`.
 
 ### 🚀 Menjalankan Aplikasi
 Library pembaca input keyboard global membutuhkan izin akses sistem. Selalu jalankan terminal dengan hak akses **Administrator**.
